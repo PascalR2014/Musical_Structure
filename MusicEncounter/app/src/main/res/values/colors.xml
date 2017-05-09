@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#27262c</color>
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#27262c</color>
+    <color name="colorAccent">#f86a63</color>
+    <color name="colorSecondaryDark">#443a4a</color>
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorDivider">#353335</color>
+    <color name="colorFeaturedDark">#262f34</color>
+    <color name="colorFeaturedMedium">#038fa4</color>
+
+    <!-- Background color for bienvenue category -->
+    <color name="category_bienvenue">#038fa4</color>
+
+    <!-- Background color for category_search -->
+    <color name="category_search">#27262c</color>
+
+    <!-- Background color for category_info -->
+    <color name="category_info">#27262c</color>
+
+    <!-- Background color for category_player -->
+    <color name="category_player">#27262c</color>
+
+    <!-- Background color for category_playlist -->
+    <color name="category_playlist">#27262c</color>
+
+    <!-- Background color for category_implicit -->
+    <color name="category_implicit">#27262c</color>
+</resources>

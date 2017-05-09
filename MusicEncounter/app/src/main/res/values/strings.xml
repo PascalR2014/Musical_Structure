@@ -1,0 +1,103 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">musicencounter</string>
+
+    <!-- Category name for bienvenue activity [CHAR LIMIT=20] -->
+    <string name="category_bienvenue">WELCOME</string>
+
+    <!-- Category name for search activity [CHAR LIMIT=20] -->
+    <string name="category_search">SEARCH</string>
+
+    <!-- Category name for information activity [CHAR LIMIT=20] -->
+    <string name="category_info">INFORMATION</string>
+
+    <!-- Category name for player activity [CHAR LIMIT=20] -->
+    <string name="category_player">NOW PLAYING</string>
+
+    <!-- Category name for playlist activity[CHAR LIMIT=20] -->
+    <string name="category_playlist">CUSTOM PLAYLIST</string>
+
+    <!-- Category name for implicit activity[CHAR LIMIT=20] -->
+    <string name="category_implicit">PLAYLIST SUGGESTION</string>
+
+    <!-- Text inside activities[CHAR LIMIT=20] -->
+    <string name="bienvenue_TextView">
+        First thanks to download this app !
+        \nThe goal for this app is to encounter music that you never listening !
+        \nFEATURES APP:\nTo play local tracks, This app use MediaPlayer Class and MediaController.
+        This application will use SoundCloud API and youtube,( implicit intent) if you have youtube app in your phone.
+    </string>
+    <string name="search_TextView">
+        Your MUSIC ENCOUNTER instantly found music and audio files in your phone !
+    </string>
+    <string name="info_TextView">
+        information album, artist \nyour now listening on \nMUSIC ENCOUNTER !
+        \n
+        <!-- MOZART playlist example-->
+        \n<ELEMENT>
+                <ALBUM>
+                    <ARTIST>AMADEUS MOZART</ARTIST>\n
+                    <TITLE>Lacrimosa</TITLE>
+                    <Link><a href="https://www.youtube.com/watch?v=k1-TrAvp_xs"></a></Link>
+                </ALBUM>
+            </ELEMENT>
+    </string>
+    <string name="player_TextView">
+        MUSIC ENCOUNTER \nyour now listening
+        \n
+        <!-- MOZART playlist example-->
+        \n<ELEMENT>
+                <ALBUM>
+                    <ARTIST>AMADEUS MOZART</ARTIST>\n
+                    <TITLE>Lacrimosa</TITLE>
+                    <Link><a href="https://www.youtube.com/watch?v=k1-TrAvp_xs"></a></Link>
+                </ALBUM>
+            </ELEMENT>
+    </string>
+
+    <string name="playlist_TextView">
+        MUSIC ENCOUNTER \ncustomize your own playlist
+        \n
+        <!-- MOZART playlist example-->
+         [ADD THIS]
+            \n<ELEMENT>
+                <ALBUM>
+                    <ARTIST>AMADEUS MOZART</ARTIST>\n
+                    <TITLE>Lacrimosa</TITLE>
+                    <Link><a href="https://www.youtube.com/watch?v=k1-TrAvp_xs"></a></Link>
+                </ALBUM>
+            </ELEMENT>
+    </string>
+    <string name="implicit_TextView">
+        Suggestion playlist \n(Ebooks, music) to youtube and other !
+        \n
+        <!-- MOZART playlist example-->
+        \n<ELEMENT>
+                <ALBUM>
+                    <ARTIST>AMADEUS MOZART</ARTIST>\n
+                    <TITLE>Lacrimosa</TITLE>
+                    \n<NOTE>One of the best requiem of Mozart</NOTE>
+                    <Link><a href="https://www.youtube.com/watch?v=k1-TrAvp_xs"></a></Link>
+                </ALBUM>\n
+                \n<ALBUM>
+                    <ARTIST>ROUGET DE LISLE</ARTIST>\n
+                    <TITLE>La marseillaise</TITLE>\n
+                    <NOTE>This is the french national anthem</NOTE>
+                    <Link><a href="https://www.youtube.com/watch?v=laWIjgWDesE"></a></Link>
+                </ALBUM>
+        </ELEMENT>
+    </string>">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

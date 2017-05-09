@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@drawable/eiffel"
+    tools:context="com.example.android.musicencounter.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+       <TextView
+           android:id="@+id/welcome_text"
+           style="@style/CategoryStyle"
+           android:text="@string/category_bienvenue"
+           android:background="@color/category_bienvenue"
+           android:layout_marginBottom="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+        <!--Activity local files...(rep)-->
+        <TextView
+            android:id="@+id/search_activity"
+            style="@style/CategoryStyle"
+            android:background="@color/category_search"
+            android:text="@string/category_search"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/welcome_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <!--Activity infos album, artist-->
+        <TextView
+            android:id="@+id/info_activity"
+            style="@style/CategoryStyle"
+            android:background="@color/category_info"
+            android:text="@string/category_info"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/player"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <!--Activity now playing-->
+        <TextView
+            android:id="@+id/player"
+            style="@style/CategoryStyle"
+            android:background="@color/category_player"
+            android:text="@string/category_player"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/search_activity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <!--Activity custom your playlist, (Ebooks, music,...)-->
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/CategoryStyle"
+            android:background="@color/category_playlist"
+            android:text="@string/category_playlist"
+            android:layout_below="@+id/info_activity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"/>
+        <!--Activity playlist suggestion to youtube and other-->
+        <TextView
+            android:id="@+id/suggestion_playlist"
+            style="@style/CategoryStyle"
+            android:background="@color/category_implicit"
+            android:text="@string/category_implicit"
+            android:layout_below="@+id/playlist"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="50dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
